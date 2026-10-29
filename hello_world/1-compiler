@@ -1,2 +1,2 @@
-printf '#!/bin/bash\ngcc -c "$CFILE" -o "${CFILE%%.c}.o"\n' > 1-compiler
-chmod u+x 1-compiler
+#!/bin/bash
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
