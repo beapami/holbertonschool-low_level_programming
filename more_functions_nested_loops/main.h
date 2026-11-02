@@ -8,5 +8,6 @@
  * Return: 1 si c est une majuscule, 0 sinon.
  */
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif /* MAIN_H */
